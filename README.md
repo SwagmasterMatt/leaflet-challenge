@@ -7,7 +7,7 @@ This project is a web-based application designed to visualize earthquake data ac
 The application fetches real-time earthquake data from the USGS (United States Geological Survey) website through their API. Specifically, the API endpoint used provides earthquake data in GeoJSON format for the past month.
 
 # Methodology
-#Map Initialization
+# Map Initialization
 
 Leaflet Map: Initializes a Leaflet map with the center of the map set to the coordinates [37.09, -95.71] (centered over the United States) and with a zoom level of 5.
 Tile Layer: An OpenStreetMap tile layer is added to the initialized map.
@@ -27,6 +27,5 @@ Radius: The radius of each circle marker is proportional to the magnitude of the
 Popup Info: When clicked, each marker displays a popup containing details such as the location, magnitude, and date of the earthquake. A link to further event details is also provided.
 
 # Legend Creation
-S
-tatic Legend: A static legend is added to the bottom right of the map to interpret the depth-based color-coding scheme for the markers.
+Static Legend: A static legend is added to the bottom right of the map to interpret the depth-based color-coding scheme for the markers.
 By integrating the aforementioned components, this application serves as a comprehensive tool for visualizing and understanding real-time earthquake occurrences across the globe.
