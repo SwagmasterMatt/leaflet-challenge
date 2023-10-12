@@ -54,7 +54,7 @@ d3.json(url).then(function(data) {
       weight: 0.5,
       fillColor: getColor(depth),
       radius: magnitude * 15000 * 0.5
-    }).bindPopup(`<h1>${properties.place}</h1> <hr> <h3>Magnitude: ${magnitude}</h3> <h4>Date: ${date}</h4> <a href="${eventURL}" target="_blank">Event Details</a>`).addTo(myMap);
+    }).bindPopup(`<h1>${properties.place}</h1> <hr> <h3>Magnitude: ${magnitude}</h3> <h4>Date: ${date}</h4> <h5>Depth: ${depth}</h5> <a href="${eventURL}" target="_blank">Event Details</a>`).addTo(myMap);
   }
 
     
